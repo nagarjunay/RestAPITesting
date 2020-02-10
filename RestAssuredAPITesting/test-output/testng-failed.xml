@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.RestAssuredAPITesting.TC001_Get_Request">
+      <class name="com.test.automation.RestAssuredAPITesting.TC002_Post_Request">
         <methods>
-          <include name="getweatherDetails"/>
+          <include name="RegistrationSuccessful"/>
         </methods>
-      </class> <!-- com.test.automation.RestAssuredAPITesting.TC001_Get_Request -->
+      </class> <!-- com.test.automation.RestAssuredAPITesting.TC002_Post_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
